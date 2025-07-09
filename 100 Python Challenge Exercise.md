@@ -37,7 +37,7 @@ This repository contains a curated list of **100 Python exercises**, from beginn
     Input a string and print its reverse (e.g., `"hello"` → `"olleh"`).
 
 11. **Vowel Count**  
-    Count how many vowels appear in a string like `"OpenAI is amazing"`.
+    Count how many vowels appear in a string like `"I'm learning Python"`.
 
 12. **Palindrome Check**  
     Check whether the word `"radar"` is a palindrome.
