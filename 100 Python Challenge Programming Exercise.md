@@ -260,4 +260,255 @@ Welcome to the **100 Python Challenge Projects**! These exercises are designed t
 - **Libraries**: `requests`
 - **Hint**: Use exchangerate.host or similar.
 
-... *(Continue through project 100 with similar structure)* ...
+### 51. **Chat Logger**
+- **Description**: Save all user input into a log file.
+- **Libraries**: `datetime`
+- **Hint**: Append each message with timestamp to a `.txt` file.
+
+### 52. **Instagram Hashtag Generator**
+- **Description**: Generate hashtags for a given topic or keyword.
+- **Libraries**: `random`, `json`
+- **Hint**: Use a local file of hashtags and random sampling.
+
+### 53. **Memory Puzzle Game**
+- **Description**: Match pairs of cards by memory.
+- **Libraries**: `pygame`
+- **Hint**: Flip two cards, then hide if no match.
+
+### 54. **Command Line Dictionary**
+- **Description**: Define words via dictionary API.
+- **Libraries**: `requests`
+- **Hint**: Use `api.dictionaryapi.dev`.
+
+### 55. **Invoice Generator**
+- **Description**: Generate printable PDF invoices.
+- **Libraries**: `reportlab`, `datetime`
+- **Hint**: Generate PDF with tables, totals, and date.
+
+### 56. **Calendar App**
+- **Description**: Create and view calendar events.
+- **Libraries**: `tkinter`, `calendar`, `datetime`
+- **Hint**: Let users click dates and add tasks.
+
+### 57. **Site Availability Checker**
+- **Description**: Check if a list of websites is online.
+- **Libraries**: `requests`
+- **Hint**: Use `requests.get()` and check `status_code`.
+
+### 58. **Chat Interface (GUI)**
+- **Description**: Simulate chat between two users.
+- **Libraries**: `tkinter`
+- **Hint**: Use input boxes and chat window for display.
+
+### 59. **Directory Tree Generator**
+- **Description**: Display a folder structure like `tree` command.
+- **Libraries**: `os`
+- **Hint**: Use recursion with indentation.
+
+### 60. **System Monitor**
+- **Description**: Monitor CPU, RAM, and disk usage live.
+- **Libraries**: `psutil`
+- **Hint**: Display usage as percentages in terminal.
+
+## 🧠 Advanced (61–100)
+
+### 61. **Chatbot with NLP**
+- **Description**: Build a smart chatbot using natural language processing.
+- **Libraries**: `nltk`, `re`
+- **Hint**: Tokenize and match user intents.
+
+### 62. **Stock Market Dashboard**
+- **Description**: Show live stock prices and charts.
+- **Libraries**: `yfinance`, `plotly`, `dash`
+- **Hint**: Use Dash callbacks for dynamic updates.
+
+### 63. **Twitter Bot**
+- **Description**: Automatically tweet from your account.
+- **Libraries**: `tweepy`
+- **Hint**: Authenticate via Twitter API.
+
+### 64. **Portfolio Website (Flask)**
+- **Description**: Create a personal portfolio to showcase your projects.
+- **Libraries**: `flask`, `jinja2`
+- **Hint**: Use templates and routes for dynamic pages.
+
+### 65. **Face Recognition App**
+- **Description**: Identify people in images using face encoding.
+- **Libraries**: `face_recognition`, `opencv-python`
+- **Hint**: Load known faces and compare encodings.
+
+### 66. **Instagram Image Downloader**
+- **Description**: Download photos from Instagram.
+- **Libraries**: `instaloader`
+- **Hint**: Login with credentials to access private posts.
+
+### 67. **Crypto Tracker App**
+- **Description**: Track live prices of cryptocurrencies.
+- **Libraries**: `requests`, `matplotlib`, `tkinter`
+- **Hint**: Use CoinGecko or similar API.
+
+### 68. **FastAPI REST API**
+- **Description**: Build an async REST API for a microservice.
+- **Libraries**: `fastapi`, `uvicorn`, `pydantic`
+- **Hint**: Use data models and decorators.
+
+### 69. **Movie Recommendation System**
+- **Description**: Suggest similar movies based on user input.
+- **Libraries**: `pandas`, `scikit-learn`
+- **Hint**: Use cosine similarity on TF-IDF matrix.
+
+### 70. **Language Translator**
+- **Description**: Translate text between languages.
+- **Libraries**: `googletrans`, `deep_translator`
+- **Hint**: Detect language and translate using API.
+
+### 71. **News Aggregator**
+- **Description**: Display latest headlines from multiple sources.
+- **Libraries**: `newsapi-python`
+- **Hint**: Loop through top headlines by category.
+
+### 72. **Voice Assistant**
+- **Description**: Respond to voice commands like “what’s the time?”
+- **Libraries**: `speechrecognition`, `pyttsx3`
+- **Hint**: Use speech-to-text and conditionals.
+
+### 73. **Virtual Whiteboard**
+- **Description**: Draw using webcam and color tracking.
+- **Libraries**: `opencv-python`, `numpy`
+- **Hint**: Use color masking and contour tracking.
+
+### 74. **AI Sudoku Solver**
+- **Description**: Solve any Sudoku puzzle using backtracking.
+- **Libraries**: `numpy`
+- **Hint**: Use recursion to fill empty cells.
+
+### 75. **Chat Application (Socket)**
+- **Description**: Build a basic LAN chat server and client.
+- **Libraries**: `socket`, `threading`
+- **Hint**: Use separate threads for sending/receiving.
+
+### 76. **Resume Parser**
+- **Description**: Extract info from PDF resumes.
+- **Libraries**: `pdfminer.six`, `re`
+- **Hint**: Parse name, email, and skills.
+
+### 77. **AI Snake Game**
+- **Description**: Snake game controlled by AI.
+- **Libraries**: `pygame`, `numpy`
+- **Hint**: Use a neural network or rule-based AI.
+
+### 78. **Email Automation**
+- **Description**: Automatically send bulk emails to a contact list.
+- **Libraries**: `smtplib`, `email`, `csv`
+- **Hint**: Use CSV for contact list and `MIMEText` for email body.
+
+### 79. **AI Flappy Bird**
+- **Description**: Create Flappy Bird and train an AI to play it.
+- **Libraries**: `pygame`, `neat-python`
+- **Hint**: Use NEAT algorithm to evolve the agent.
+
+### 80. **Image Caption Generator**
+- **Description**: Generate text captions for images.
+- **Libraries**: `tensorflow`, `keras`, `PIL`
+- **Hint**: Use CNN + LSTM-based architecture.
+
+### 81. **Object Detection App**
+- **Description**: Detect multiple objects in real-time using webcam.
+- **Libraries**: `opencv-python`, `YOLO`, `cvlib`
+- **Hint**: Load pre-trained object detection model.
+
+### 82. **Handwritten Digit Recognizer**
+- **Description**: Classify digits from images using a trained model.
+- **Libraries**: `tensorflow`, `keras`, `sklearn`
+- **Hint**: Use the MNIST dataset.
+
+### 83. **PDF Text Extractor**
+- **Description**: Extract text content from PDF documents.
+- **Libraries**: `PyPDF2`, `pdfplumber`
+- **Hint**: Loop through all pages and extract text.
+
+### 84. **AI ChatGPT Clone (Local)**
+- **Description**: Build a mini conversational model using transformers.
+- **Libraries**: `transformers`, `torch`
+- **Hint**: Use pre-trained models like `DialoGPT`.
+
+### 85. **Blog CMS (with Flask or Django)**
+- **Description**: Web-based blog manager with posts and admin panel.
+- **Libraries**: `flask` or `django`, `sqlite3`
+- **Hint**: Use a relational DB and login system.
+
+### 86. **Video to GIF Converter**
+- **Description**: Convert short videos into animated GIFs.
+- **Libraries**: `moviepy`
+- **Hint**: Use `.subclip()` and `.write_gif()`.
+
+### 87. **Keylogger**
+- **Description**: Record every keystroke typed on the keyboard.
+- **Libraries**: `pynput`
+- **Hint**: Log output to a file — for educational purposes only.
+
+### 88. **OCR App**
+- **Description**: Extract text from images using OCR.
+- **Libraries**: `pytesseract`, `Pillow`
+- **Hint**: Preprocess image before feeding to OCR engine.
+
+### 89. **Traffic Sign Classifier**
+- **Description**: Identify traffic signs from images.
+- **Libraries**: `tensorflow`, `opencv`, `sklearn`
+- **Hint**: Use GTSRB dataset.
+
+### 90. **Virtual Mouse (with Hand Gestures)**
+- **Description**: Control your mouse using webcam and hand gestures.
+- **Libraries**: `opencv`, `mediapipe`, `pyautogui`
+- **Hint**: Track hand landmarks with Mediapipe.
+
+### 91. **AI Voice Cloning**
+- **Description**: Clone a voice from a sample and synthesize speech.
+- **Libraries**: `coqui-ai`, `torchaudio`, `resemblyzer`
+- **Hint**: Use pretrained TTS + speaker encoder.
+
+### 92. **Excel Report Generator**
+- **Description**: Generate styled Excel reports.
+- **Libraries**: `openpyxl`, `xlsxwriter`
+- **Hint**: Format tables, fonts, and charts.
+
+### 93. **Realtime Chat (WebSockets)**
+- **Description**: Live browser-to-browser chat app.
+- **Libraries**: `Flask-SocketIO`, `eventlet`
+- **Hint**: Use rooms and emit messages in real time.
+
+### 94. **Fitness Tracker App**
+- **Description**: Track workout logs and progress.
+- **Libraries**: `tkinter`, `sqlite3`, `matplotlib`
+- **Hint**: Store exercises with timestamps.
+
+### 95. **AI Text Summarizer**
+- **Description**: Summarize long articles into short bullet points.
+- **Libraries**: `transformers`, `sumy`, `nltk`
+- **Hint**: Use pretrained BART or T5 model.
+
+### 96. **E-commerce Backend API**
+- **Description**: Backend for a shopping app with products, users, and carts.
+- **Libraries**: `fastapi`, `sqlalchemy`
+- **Hint**: Include authentication and CRUD routes.
+
+### 97. **Currency Forecasting (ML)**
+- **Description**: Predict future currency prices.
+- **Libraries**: `pandas`, `scikit-learn`, `xgboost`
+- **Hint**: Time-series forecasting with regression.
+
+### 98. **PDF Filler**
+- **Description**: Automatically fill out PDF forms.
+- **Libraries**: `pdfrw`, `reportlab`
+- **Hint**: Replace placeholder fields with text.
+
+### 99. **Virtual Keyboard**
+- **Description**: Type without a physical keyboard using webcam.
+- **Libraries**: `opencv`, `mediapipe`, `pyautogui`
+- **Hint**: Detect hand tap motion on screen.
+
+### 100. **AI-Powered Resume Builder**
+- **Description**: Generate resume content based on user input and templates.
+- **Libraries**: `jinja2`, `pdfkit`, `openai`
+- **Hint**: Collect info, auto-fill HTML templates, convert to PDF.
+
