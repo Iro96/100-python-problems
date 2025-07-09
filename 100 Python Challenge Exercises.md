@@ -1,6 +1,6 @@
 # 🐍 100 Python Exercises from Beginner to Expert
 
-This repository contains a curated list of **100 Python exercises**, from beginner to expert level, to help you master Python through hands-on problem solving.
+Thi repository contains a curated list of **100 Python exercises**, from beginner to expert level, to help you master Python through hands-on problem solving.
 
 ---
 
